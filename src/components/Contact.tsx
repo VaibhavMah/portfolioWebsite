@@ -1,7 +1,6 @@
 'use client';
 
-import { FaGithub, FaLinkedin, FaInstagram, FaDev } from 'react-icons/fa';
-import { FiArrowUpRight } from 'react-icons/fi';
+import { FaGithub, FaLinkedin,} from 'react-icons/fa';
 
 export default function ContactSection() {
   return (

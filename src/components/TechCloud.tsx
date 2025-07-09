@@ -13,7 +13,7 @@ export default function TechCloud() {
           initSpeed: 'slow',
           keep: true,
         })}
-        onClick={(tag: string, ev: MouseEvent) => {
+        onClick={(tag: string) => {
           console.log(`Clicked on: ${tag}`);
         }}
         onClickOptions={{ passive: true }}
