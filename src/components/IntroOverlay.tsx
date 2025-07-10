@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const words = ['Developer', 'Problem Solver', 'Driller'];
+const words = ['Developer', 'Problem Solver', 'Creator'];
 
 export default function IntroOverlay({ onFinish }: { onFinish: () => void }) {
   const [index, setIndex] = useState(0);

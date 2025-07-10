@@ -19,7 +19,7 @@ export default function About() {
         >
           <h2 className="text-4xl md:text-6xl font-extrabold leading-tight text-white drop-shadow-[0_0_25px_#00ffff] mb-8">
             I code ideas into reality,<br />
-            <span className="text-cyan-400">websites powerful</span> and <br />
+            <span className="text-cyan-400">make websites powerful</span> and <br />
             <span className="text-cyan-400">data insightful.</span>
           </h2>
 
