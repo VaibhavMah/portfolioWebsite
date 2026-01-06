@@ -15,7 +15,7 @@ export default function Hero({ introDone }: { introDone: boolean }) {
 >
   <div className=" text-3xl max-w-screen-xl mx-auto px-4 md:px-8 py-6 flex justify-between items-center">
     <a
-      href="resume/Vaibhav_resume_b.pdf"
+      href="resume/VaibhavMaheshwariResume.pdf"
       target="_blank"
       rel="noopener noreferrer"
       className="text-2xl font-semibold border border-cyan-400 px-3 py-1 rounded hover:bg-cyan-400 hover:text-black transition">
