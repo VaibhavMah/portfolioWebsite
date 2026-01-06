@@ -17,7 +17,7 @@ export default function ProjectsSection() {
           {/* Left Side */}
           <div className="w-full md:w-1/2">
             <a
-  href="https://vaib.rf.gd/taskify"
+  href="https://personal-finance-tracker-two-gamma.vercel.app/"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-flex items-center gap-2 text-white hover:text-cyan-400 transition mb-4"
@@ -29,9 +29,9 @@ export default function ProjectsSection() {
 </a>
 
             
-            <h3 className="text-[28px] font-semibold mb-4">Taskify</h3>
+            <h3 className="text-[28px] font-semibold mb-4">Finance Tracker</h3>
             <p className="text-gray-300 text-[20px] mb-6">
-              Taskify is a powerful task management web app with features like authetication, task categorization, email integration, and an intuitive dashboard <span className="text-cyan-400 font-semibold">UI</span>. Built with the <span className="text-cyan-400 font-semibold">MERN</span>  stack and deployed online on AWS.
+              Personal Finance Tracker is a web-based application that enables users to track income and expenses, organize transactions into categories, and analyze spending through interactive dashboards.<span className="text-cyan-400 font-semibold"></span>Built with the <span className="text-cyan-400 font-semibold">MERN</span>  stack and deployed online on AWS.
             </p>
             <div className="flex flex-wrap gap-4 text-[18px] text-gray-400">
               <span>React</span>
@@ -47,8 +47,8 @@ export default function ProjectsSection() {
           {/* Right Side */}
           <div className="w-full md:w-1/2">
             <Image
-              src="/projects/taskify-preview.png" // Place this image in public/
-              alt="Taskify Preview"
+              src="/projects/PFT.png" // Place this image in public/
+              alt="FT Preview"
               width={600}
               height={400}
               className="rounded-2xl shadow-lg object-cover w-full"
