@@ -15,16 +15,16 @@ export default function Hero({ introDone }: { introDone: boolean }) {
 >
   <div className=" text-3xl max-w-screen-xl mx-auto px-4 md:px-8 py-6 flex justify-between items-center">
     <a
-      href="resume/VaibhavMaheshwariResume.pdf"
+      href="resume/May 2026 Resume.pdf"
       target="_blank"
       rel="noopener noreferrer"
       className="text-2xl font-semibold border border-cyan-400 px-3 py-1 rounded hover:bg-cyan-400 hover:text-black transition">
       Resume
     </a>
     <ul className="flex space-x-4 md:space-x-6 text-sm md:text-base">
-      <li><a href="#about" className="hover:text-cyan-400 transition text-3xl">About</a></li>
-      <li><a href="#projects" className="hover:text-cyan-400 transition text-3xl">Projects</a></li>
-      <li><a href="#contact" className="hover:text-cyan-400 transition text-3xl">Contact</a></li>
+      <li><a href="#about" className="hover:text-cyan-400 transition text-2xl">About</a></li>
+      <li><a href="#projects" className="hover:text-cyan-400 transition text-2xl">Projects</a></li>
+      <li><a href="#contact" className="hover:text-cyan-400 transition text-2xl">Contact</a></li>
     </ul>
   </div>
 </motion.div>
@@ -82,9 +82,11 @@ export default function Hero({ introDone }: { introDone: boolean }) {
   transition={{ delay: 0.5, duration: 0.6 }} // same as navbar
   className="w-full max-w-screen-xl mx-auto px-4 md:px-8 mt-8 flex justify-between text-xs md:text-sm text-gray-300"
 >
-  <div className="hover:text-cyan-400 transition text-2xl">Full Stack Web Developer </div>
+  <div className="hover:text-gray-400 transition text-2xl">Software Dev<span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-black-500 font-extrabold text-3xl px-2 animate-pulse">
+  X 
+</span>Data Engineer</div>
   <div className="hover:text-cyan-400 transition text-2xl">
-    Love exploring new tech.<br />
+    GenAI enthusiast<br />
   </div>
 </motion.div>
 
